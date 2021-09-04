@@ -22,7 +22,8 @@
         "flexible-alerts",
         "prism",
         "theme-comscore",
-		"mermaid-gb3"
+        "mermaid-gb3",
+        "livereload"
     ],
 
     "pluginsConfig": {
