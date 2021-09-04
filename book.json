@@ -1,0 +1,50 @@
+{
+    "title": "ceph-edu",
+    "author": "team@CephChinaCommunity",
+    "language": "zh-hans",
+
+    "plugins": [
+        "-search",
+        "-lunr",
+        "-sharing",
+        "splitter",
+        "expandable-chapters-small",
+        "chapter-fold",
+        "code",
+        "search-pro",
+        "tbfed-pagefooter",
+        "ancre-navigation",
+        "popup",
+        "todo",
+        "pageview-count",
+        "hide-element",
+        "emphasize",
+        "flexible-alerts",
+        "prism",
+        "theme-comscore",
+        "mermaid-gb3",
+        "livereload"
+    ],
+
+    "pluginsConfig": {
+        "expandable-chapters-small":{},
+        "code":{"copyButtons": true},
+        "theme-default": { "showLevel": true },
+
+        "tbfed-pagefooter": {
+            "copyright":"",
+            "modify_label": "文件修订时间：",
+            "modify_format": "YYYY-MM-DD HH:mm:ss"
+        },
+        "hide-element": {
+            "elements": [".gitbook-link"]
+        },
+
+
+        "prism": {
+            "css": [ "prismjs/themes/prism-solarizedlight.css" ],
+            "lang": { "shell": "bash" }
+        }
+    }
+
+}
